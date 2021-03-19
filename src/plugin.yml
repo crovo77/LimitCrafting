@@ -1,0 +1,19 @@
+name: LimitCrafting
+author: Tom Micallef
+version: 5.1
+main: me.tezk.limitcrafting.LimitCrafting
+api-version: 1.14
+commands:
+  limitcrafting:
+    description: Core limitcrafting command to reload configuration
+    usage: /limitcrafting reload
+    aliases: lc
+permissions:
+  limitcrafting.bypass:
+    description: Permission will grant players bypass from ALL limitcrafting recipe blockages
+    default: op
+  limitcrafting.reload:
+    description: Allows user to execute /limitcrafting reload
+    default: op
+  limitcrafting.groups:
+    description: Used to define specific recipes to be blocked for specific groups of players
