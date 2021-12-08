@@ -21,3 +21,8 @@ limitcrafting.reload:
 limitcrafting.groups:
   description: Used to define specific recipes to be blocked for specific groups of players
 
+## Visual
+<img src="https://github.com/Tezk/TezkCore/blob/f8c0144c500d3bcf2485c3033f71b51ce8436e8c/gifs/c83c29400c1ac3bdd605014cc327f67e.gif" />
+<img src="https://github.com/Tezk/TezkCore/blob/f8c0144c500d3bcf2485c3033f71b51ce8436e8c/gifs/dbe8ab664f8fadda5e4616dcfdc0d634.gif"/>
+<img src="https://github.com/Tezk/TezkCore/blob/f8c0144c500d3bcf2485c3033f71b51ce8436e8c/gifs/83e0abc6121021e9b6ff8efd6699a93b.gif" />
+
