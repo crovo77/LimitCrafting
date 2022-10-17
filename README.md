@@ -1,5 +1,5 @@
 # LimitCrafting
-10,100+ downloads: https://www.spigotmc.org/resources/limitcrafting-updated-1-18-2-disable-crafting-recipes.12962/
+11,000+ downloads: https://www.spigotmc.org/resources/limitcrafting-updated-1-18-2-disable-crafting-recipes.12962/
 LimitCrafting is a light weight Spigot plugin developed for Minecraft multiplayer server owners to limit their player's ability to craft certain items inside the game. 
 
 ## Features
