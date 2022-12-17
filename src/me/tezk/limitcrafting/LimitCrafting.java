@@ -18,8 +18,8 @@ public class LimitCrafting extends JavaPlugin {
     private List<String> materialList;
     private Boolean enableGroups;
     private Set<String> groupNames;
-
     @Override
+
     public void onEnable() {
         updateConfig();
         saveDefaultConfig();

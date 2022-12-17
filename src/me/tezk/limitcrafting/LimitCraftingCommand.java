@@ -20,39 +20,20 @@ public class LimitCraftingCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (cmd.getName().equalsIgnoreCase("limitcrafting")) {
-
             if (!(sender.hasPermission("limitcrafting.reload"))) {
                 sender.sendMessage(ChatColor.RED + "You don't have permission to use this command!");
                 return true;
             }
-
-            if (args.length == 1) {
-
-                if (args[0].equalsIgnoreCase("reload")) {
-
-                    plugin.reloadConfig();
-                    plugin.updateConfig();
-                    sender.sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.getConfigReloadedMessage()));
-                    return true;
-
-                } else {
-                    String wrongSyntax = ChatColor.translateAlternateColorCodes('&',
-                            plugin.getIncorrectSyntaxMessage()).replace("%command%", "/limitcrafting reload");
-                    sender.sendMessage(wrongSyntax);
-                    return true;
-                }
-
+            if (args.length == 1 && args[0].equalsIgnoreCase("reload")) {
+                plugin.reloadConfig();
+                plugin.updateConfig();
+                sender.sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.getConfigReloadedMessage()));
             } else {
-
                 String wrongSyntax = ChatColor.translateAlternateColorCodes('&',
                         plugin.getIncorrectSyntaxMessage()).replace("%command%", "/limitcrafting reload");
                 sender.sendMessage(wrongSyntax);
-                return true;
-
             }
-
         }
         return true;
     }
-
 }
